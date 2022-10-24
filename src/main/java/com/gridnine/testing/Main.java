@@ -19,7 +19,7 @@ public class Main {
         System.out.println("Flight with arrival date less than departure date");
         flightFilter.getArrivalLessDeparture(flights);
 
-        System.out.println("Flight where the total time spent on the ground exceeds two hours");
+        System.out.println("Flight where the total time spent on the ground exceeds two hours ");
         flightFilter.getFlightWithTransferMoreThanTwoHours(flights);
 
     }
